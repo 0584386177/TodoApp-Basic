@@ -1,0 +1,14 @@
+import { useState } from 'react';
+import './App.css';
+import ToDo from "./component/ToDo.jsx";
+function App(props) {
+  
+  return (
+    <div className='App'>
+    <h1>{title}</h1>
+    <ToDo/>
+    </div>
+  )
+  }
+
+export default App;
